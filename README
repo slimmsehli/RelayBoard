@@ -46,9 +46,8 @@ Each control input drives one relay via an optocoupler for full isolation.
 
 ---
 
+<img src="https://github.com/slimmsehli/RelayBoard/blob/main/Relay_board_schematic.png" alt="Schematic circuit">
+<img src="https://github.com/slimmsehli/RelayBoard/blob/main/Relay_board_PCB.png" alt="PCB">
+<img src="https://github.com/slimmsehli/RelayBoard/blob/main/Relay_board_PCB_3D.png" alt="3D view">
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Schematic circuit")
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "PCB")
-
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "3D view")

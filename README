@@ -1,7 +1,7 @@
-# 🟢 4-Channel Relay Board with Opto-Isolation for Arduino/Raspberry Pi
+🟢 4-Channel Relay Board with Opto-Isolation for Arduino/Raspberry Pi
 
-This project is a **modular, 4-channel relay control board** designed for microcontrollers like **Arduino, Raspberry Pi, ESP32, etc.
-** The board features **opto-isolation** for electrical protection and safety, and is ideal for **home automation**, **IoT**, or **industrial control** applications.
+This project is a modular, 4-channel relay control board designed for microcontrollers like **Arduino, Raspberry Pi, ESP32, etc.
+The board features opto-isolation for electrical protection and safety, and is ideal for home automation, IoT, or industrial control applications.
 
 ---
 
@@ -18,14 +18,13 @@ This project is a **modular, 4-channel relay control board** designed for microc
 
 ## ⚙️ Technical Specs
 
-| Component            | Description                     |
+| Feature              | Description                     |
 |----------------------|---------------------------------|
-| **Relay type**       | 5V or 12V SPDT (choose model)   |
-| **Optocoupler**      | PC817 or equivalent             |
+| **Relay type**       | 5V SPDT                         |
 | **Input voltage**    | 5V logic compatible             |
 | **Isolation**        | Optical + PCB drilled spacing   |
 | **Max switching**    | 10A 250V AC / 10A 30V DC        |
-| **Board size**       | 65mmx70mm                |
+| **Board size**       | 65mmx70mm                       |
 | **Control headers**  | 4-pin input control (IN1–IN4)   |
 | **Load terminals**   | NO, COM, NC per relay           |
 

@@ -1,0 +1,51 @@
+# 🟢 4-Channel Relay Board with Opto-Isolation for Arduino/Raspberry Pi
+
+This project is a **modular, 4-channel relay control board** designed for microcontrollers like **Arduino, Raspberry Pi, ESP32, etc.
+** The board features **opto-isolation** for electrical protection and safety, and is ideal for **home automation**, **IoT**, or **industrial control** applications.
+
+---
+
+## 📦 Features
+
+- ✅ **4 independent relays** (SPDT type) – control AC/DC loads up to 250V AC / 30V DC
+- ✅ **4 opto-isolated inputs** – control each relay with 3.3V or 5V logic
+- ✅ **Load-side isolation** – added safety through PCB cutouts (drilled part under relay contacts)
+- ✅ **Status indicator LEDs** – per-relay operation feedback
+- ✅ Designed for **Arduino, Raspberry Pi, ESP8266, ESP32**, etc.
+- ✅ Screw terminals for easy wiring of relays and power
+
+---
+
+## ⚙️ Technical Specs
+
+| Component            | Description                     |
+|----------------------|---------------------------------|
+| **Relay type**       | 5V or 12V SPDT (choose model)   |
+| **Optocoupler**      | PC817 or equivalent             |
+| **Input voltage**    | 5V logic compatible             |
+| **Isolation**        | Optical + PCB drilled spacing   |
+| **Max switching**    | 10A 250V AC / 10A 30V DC        |
+| **Board size**       | 65mmx70mm                |
+| **Control headers**  | 4-pin input control (IN1–IN4)   |
+| **Load terminals**   | NO, COM, NC per relay           |
+
+---
+
+## 📌 Pinout
+
+| Pin | Description           |
+|-----|-----------------------|
+| IN1 | Control for Relay 1   |
+| IN2 | Control for Relay 2   |
+| IN3 | Control for Relay 3   |
+| IN4 | Control for Relay 4   |
+| VCC | Input side power (5V) |
+| GND | Ground                |
+
+Each control input drives one relay via an optocoupler for full isolation.
+
+---
+
+![Schematic circuit](Relay_board_schematic.png)
+![PCB](Relay_board_PCB.png)
+![3D view](Relay_board_PCB_3D.png)
